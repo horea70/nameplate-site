@@ -62,12 +62,12 @@ background-size: cover}
 img {
   padding: 1 px;
   background-color: #666;
-  filter: grayscale(50%); 
+  filter: grayscale(50); 
 }
 img:hover {
   transform: scale(1.1);
   transition: all 0.5 s ease-in-out;
-  filter: grayscale(20%);
+  filter: grayscale(20);
 }
 h1 {
 	font-family: "verdana";

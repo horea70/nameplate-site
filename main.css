@@ -1,18 +1,127 @@
-.container {
-    width: 100%;
-    height: 100%;
+
+/* Resetare CSS */
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-size: 100%;
+}/* Poziționarea */
+
+.profile-card {
+  width: 480px;
+  max-width: calc(100vw - 10px);
+}
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+body {
+  height: 100vh;
+}
+.head, .links, .flori {
+  text-align: center;
+}
+.head, .content {
+  width: 94%;
+  margin: 0 auto;
+}
+.poză {
+  width: 120px;
+  height: 120px;
+  border-radius: 50%;
+}
+.orchid{
+  width: 60px;
+  height:60px;
+}
+.profile-image {
+  margin-top: -60px;
+}
+/* Linkurile Contact */
+
+ul {
+  list-style-type: none;
 }
 
-h4 {
-    text-align: center;
+li {
+  display: inline;
 }
-
-p {
-    text-align: center;
+.head, .about {
+  margin-bottom: 10%;
 }
-
+body {
+  background:         url('https://i.imgur.com/NEgf8Ae.jpg?3') no-repeat center center fixed;
+background-size: cover}
+.profile-card {
+  background-color: hsla(0, 0%, 100%, .5);
+  border-radius: 4px;
+  box-shadow: hsla(0, 0%, 0%, .8) 10px 10px 80px;
+}
 img {
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
+  padding: 1px;
+  background-color: #666;
+  filter: grayscale(50%); 
+}
+img:hover {
+  transform: scale(1.1);
+  transition: all 0.5s ease-in-out;
+  filter: grayscale(20%);
+}
+h1 {
+	font-family: "verdana";
+	font-size: 24px;
+	font-style: normal;
+	font-variant: small-caps;
+	font-weight: 800;
+	letter-spacing: -.003em;
+  line-height: 2;
+}
+h2{
+ 	font-family: "verdana";
+	font-size: 21px;
+	font-style: normal;
+	font-variant: normal;
+	font-weight: 500;
+	letter-spacing: -.1em;
+  line-height: 1.80;
+}
+span{
+  font-family: "verdana";
+	font-size: 14px;
+	font-style: normal;
+	font-variant: normal;
+	font-weight: 400;
+  letter-spacing: .01em;
+  line-height: 1;
+}
+p{
+  font-family: "verdana";
+	font-size: 16px;
+	font-style: normal;
+	font-variant: normal;
+	font-weight: 600;
+	letter-spacing: -.01em;
+  line-height: 1;
+}
+.about{
+  font-family: "verdana";
+	font-size: 16px;
+	font-style: normal;
+	font-variant: normal;
+	font-weight: 400;
+	line-height: 20px;
+  letter-spacing: -.1em;
+}
+h3{
+  font-family: "verdana";
+	font-size: 12px;
+	font-style: normal;
+	font-variant: normal;
+	font-weight: 400;
+	line-height: 30px;
+}
+i{
+  color:hsla(0, 0%, 15%, .8);
 }
